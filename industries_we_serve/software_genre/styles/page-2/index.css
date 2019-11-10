@@ -174,7 +174,7 @@ body a {
   }
 }
 
-@media only screen and (min-device-width: 300px) and (max-device-width: 1224px) {
+@media only screen and (min-width: 300px) and (max-width: 1224px) {
   .top_nav {
     /*Styles*/
   }
@@ -265,7 +265,7 @@ body a {
   }
 }
 
-@media only screen and (min-device-width: 300px) and (max-device-width: 600px) {
+@media only screen and (min-width: 300px) and (max-width: 600px) {
   .ss-slide_bar {
     /*Styles*/
     width: 100vw;
@@ -399,7 +399,7 @@ body a {
   background: #16224f;
 }
 
-@media only screen and (min-device-width: 300px) and (max-device-width: 1224px) {
+@media only screen and (min-width: 300px) and (max-width: 1224px) {
   .section--1 {
     /*Styles*/
     height: auto;
@@ -425,7 +425,7 @@ body a {
   }
 }
 
-@media only screen and (min-device-width: 800px) and (max-device-width: 1224px) {
+@media only screen and (min-width: 800px) and (max-width: 1224px) {
   .section--1 .illustration {
     /*Styles*/
     width: 60%;
@@ -441,7 +441,7 @@ body a {
   }
 }
 
-@media only screen and (min-device-width: 300px) and (max-device-width: 800px) {
+@media only screen and (min-width: 300px) and (max-width: 800px) {
   .section--1 .illustration {
     /*Styles*/
     width: 80%;
@@ -478,7 +478,7 @@ body a {
   }
 }
 
-@media only screen and (min-device-width: 300px) and (max-device-width: 1224px) {
+@media only screen and (min-width: 300px) and (max-width: 1224px) {
   .section--1 .illustration .image {
     /*Styles*/
     width: 50%;
@@ -516,7 +516,7 @@ body a {
   }
 }
 
-@media only screen and (min-device-width: 300px) and (max-device-width: 1224px) {
+@media only screen and (min-width: 300px) and (max-width: 1224px) {
   .section--1 .illustration .text {
     /*Styles*/
     padding: 2em;
@@ -543,7 +543,7 @@ body a {
   }
 }
 
-@media only screen and (min-device-width: 300px) and (max-device-width: 1224px) {
+@media only screen and (min-width: 300px) and (max-width: 1224px) {
   .section--1 .illustration .text .heading {
     /*Styles*/
     padding: 1em 0;
@@ -562,7 +562,7 @@ body a {
   background-color: #16224f;
 }
 
-@media only screen and (min-device-width: 300px) and (max-device-width: 1224px) {
+@media only screen and (min-width: 300px) and (max-width: 1224px) {
   .section--1 .illustration .text .heading::before {
     /*Styles*/
     left: 50%;
@@ -587,7 +587,7 @@ body a {
   }
 }
 
-@media only screen and (min-device-width: 300px) and (max-device-width: 1224px) {
+@media only screen and (min-width: 300px) and (max-width: 1224px) {
   .section--1 .illustration .text .desc {
     /*Styles*/
     padding: 1em 0;
@@ -611,7 +611,7 @@ body a {
   }
 }
 
-@media only screen and (min-device-width: 300px) and (max-device-width: 1224px) {
+@media only screen and (min-width: 300px) and (max-width: 1224px) {
   .section--1 .illustration .text .caption {
     /*Styles*/
     padding: 1em 0;
@@ -627,7 +627,7 @@ body a {
   background-color: #ffffff;
 }
 
-@media only screen and (min-device-width: 300px) and (max-device-width: 1224px) {
+@media only screen and (min-width: 300px) and (max-width: 1224px) {
   .section--2 {
     /*Styles*/
     height: auto;
@@ -662,7 +662,7 @@ body a {
   }
 }
 
-@media only screen and (min-device-width: 300px) and (max-device-width: 1224px) {
+@media only screen and (min-width: 300px) and (max-width: 1224px) {
   .section--2 .illustration {
     /*Styles*/
     display: -webkit-box;
@@ -696,7 +696,7 @@ body a {
   }
 }
 
-@media only screen and (min-device-width: 300px) and (max-device-width: 700px) {
+@media only screen and (min-width: 300px) and (max-width: 700px) {
   .section--2 .illustration .image {
     /*Styles*/
     width: 50%;
@@ -707,7 +707,7 @@ body a {
   }
 }
 
-@media only screen and (min-device-width: 700px) and (max-device-width: 1224px) {
+@media only screen and (min-width: 700px) and (max-width: 1224px) {
   .section--2 .illustration .image {
     /*Styles*/
     width: 40%;
@@ -763,7 +763,7 @@ body a {
   }
 }
 
-@media only screen and (min-device-width: 300px) and (max-device-width: 1224px) {
+@media only screen and (min-width: 300px) and (max-width: 1224px) {
   .section--2 .illustration .text .heading {
     /*Styles*/
     text-align: center;
@@ -814,7 +814,7 @@ body a {
       grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
 }
 
-@media only screen and (min-device-width: 300px) and (max-device-width: 500px) {
+@media only screen and (min-width: 300px) and (max-width: 500px) {
   .section--3 .points {
     /*Styles*/
     -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
@@ -822,7 +822,7 @@ body a {
   }
 }
 
-@media only screen and (min-device-width: 700px) and (max-device-width: 1224px) {
+@media only screen and (min-width: 700px) and (max-width: 1224px) {
   .section--3 .points {
     /*Styles*/
     width: 60%;
@@ -860,7 +860,7 @@ body a {
   text-align: center;
 }
 
-@media only screen and (min-device-width: 300px) and (max-device-width: 700px) {
+@media only screen and (min-width: 300px) and (max-width: 700px) {
   .section--4 .faq {
     /*Styles*/
     width: 80%;
@@ -896,7 +896,7 @@ body a {
           box-shadow: #00000029 0px 0px 16px;
 }
 
-@media only screen and (min-device-width: 300px) and (max-device-width: 1224px) {
+@media only screen and (min-width: 300px) and (max-width: 1224px) {
   .section--4 .faq .answers__item:hover .answers__item__visible::before, .section--4 .faq .answers__item:focus .answers__item__visible::before {
     /*Styles*/
     -webkit-transform: translateX(-50%) rotate(45deg);
@@ -950,7 +950,7 @@ body a {
   }
 }
 
-@media only screen and (min-device-width: 300px) and (max-device-width: 1224px) {
+@media only screen and (min-width: 300px) and (max-width: 1224px) {
   .section--4 .faq .answers__item__visible::before {
     /*Styles*/
     left: 50%;
@@ -1016,7 +1016,7 @@ body a {
       grid-template-columns: 40% 60%;
 }
 
-@media only screen and (min-device-width: 300px) and (max-device-width: 1224px) {
+@media only screen and (min-width: 300px) and (max-width: 1224px) {
   .section--5 .illustration {
     /*Styles*/
     width: 70%;
@@ -1030,14 +1030,14 @@ body a {
   }
 }
 
-@media only screen and (min-device-width: 300px) and (max-device-width: 1224px) and (min-device-width: 300px) and (max-device-width: 400px) {
+@media only screen and (min-width: 300px) and (max-width: 1224px) and (min-width: 300px) and (max-width: 400px) {
   .section--5 .illustration {
     /*Styles*/
     width: 80%;
   }
 }
 
-@media only screen and (min-device-width: 300px) and (max-device-width: 1224px) {
+@media only screen and (min-width: 300px) and (max-width: 1224px) {
   .section--5 .illustration .image {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
@@ -1051,7 +1051,7 @@ body a {
   margin-left: 0;
 }
 
-@media only screen and (min-device-width: 300px) and (max-device-width: 1224px) {
+@media only screen and (min-width: 300px) and (max-width: 1224px) {
   .section--5 .illustration .image {
     /*Styles*/
     -ms-flex-item-align: center;
@@ -1181,7 +1181,7 @@ footer .bottom {
   font-family: "Montserrat", sans-serif;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   footer .bottom {
     /* Styles */
     width: 90%;
@@ -1354,7 +1354,7 @@ footer .bottom {
   }
 }
 
-@media only screen and (min-device-width: 480px) and (max-device-width: 1224px) {
+@media only screen and (min-width: 480px) and (max-width: 1224px) {
   footer .bottom {
     /*Styles*/
     width: 90%;

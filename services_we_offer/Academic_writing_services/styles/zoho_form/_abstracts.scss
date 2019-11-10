@@ -31,7 +31,7 @@ $primary-gray: #bfbfbf;
 
 /* Smartphones (portrait and landscape) ----------- */
 @mixin mq_sp() {
-    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    @media only screen and (min-width: 320px) and (max-width: 480px) {
         /* Styles */
         @content;
     }
@@ -55,7 +55,7 @@ $primary-gray: #bfbfbf;
 
 /* iPads (portrait and landscape) ----------- */
 @mixin mq_ipad() {
-    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
         /* Styles */
         @content;
     }
@@ -63,7 +63,7 @@ $primary-gray: #bfbfbf;
 
 /* iPads (landscape) ----------- */
 @mixin mq_ipad_l() {
-    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
         /* Styles */
         @content;
     }
@@ -71,7 +71,7 @@ $primary-gray: #bfbfbf;
 
 /* iPads (portrait) ----------- */
 @mixin mq_ipad_p() {
-    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
         /* Styles */
         @content;
     }
@@ -87,14 +87,14 @@ $primary-gray: #bfbfbf;
 
 // Between smartphone and desktop/laptop - LOL
 @mixin mq_rest {
-    @media only screen and (min-device-width: 480px) and (max-device-width: 1224px) {
+    @media only screen and (min-width: 480px) and (max-width: 1224px) {
         /*Styles*/
         @content;
     }
 }
 
 @mixin mq_custom($min, $max) {
-    @media only screen and (min-device-width: $min) and (max-device-width: $max) {
+    @media only screen and (min-width: $min) and (max-width: $max) {
         /*Styles*/
         @content;
     }
